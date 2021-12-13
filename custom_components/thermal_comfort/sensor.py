@@ -49,7 +49,7 @@ SENSOR_TYPES = {
     'absolutehumidity': [DEVICE_CLASS_HUMIDITY, 'Absolute Humidity', 'g/m³'],
     'heatindex': [DEVICE_CLASS_TEMPERATURE, 'Heat Index', '°C'],
     'dewpoint': [DEVICE_CLASS_TEMPERATURE, 'Dew Point', '°C'],
-    'perception': [None, 'Thermal Perception', None],
+    'perception': ['thermal_perception', 'Thermal Perception', None],
 }
 
 PERCEPTION_DRY = "dry"
